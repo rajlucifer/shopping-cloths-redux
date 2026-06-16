@@ -33,7 +33,7 @@ const Cart = () => {
               {/*${totalamount} is use or not let find out */}
               <div>
 
-                <p className="text-[20px] text-gray font-bold">Total Amount: ${totalAmount}</p>
+                <p className="text-[20px] text-gray font-bold">Total Amount: ${totalAmount.toFixed(2)}</p>
                 <button className="border-2 border-black  p-2 rounded-md bg-green-600 text-white  font-bold">CHECKOUT</button>
               </div>
 
